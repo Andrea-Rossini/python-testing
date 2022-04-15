@@ -48,4 +48,5 @@ pipeline:
 	lint
 	test
 ```
-
+# Continuous Delivery with GitHub Actions
+Once written app.py and test_app.py, is possible to build a continuous delivery system that checks for every PUSH the code uploaded. Check the .yaml file in this repo as an example.
