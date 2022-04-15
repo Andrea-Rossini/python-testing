@@ -28,6 +28,12 @@ touch test_app.py
 
 3. Edit requirements.txt
 ```console
+pylint
+pytest
+```
+
+4. Edit Makefile
+```console
 install:
 	pip install --upgrade pip && pip install -r requirements.txt
 
@@ -37,3 +43,4 @@ lint:
 test:
 	python -m pytest -vv -cov= test_app.py
 ```
+
