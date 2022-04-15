@@ -42,5 +42,10 @@ lint:
 
 test:
 	python -m pytest -vv -cov= test_app.py
+	
+pipeline:
+	install
+	lint
+	test
 ```
 
