@@ -5,7 +5,7 @@ This is a simple repo for debugging python code
 
 1. Install virtual environment
 
-'''shell
+'''bash
 
 pip install virtualenv
 
@@ -15,9 +15,13 @@ source .python-testing/bin/activate VENV
 '''
 
 2. Create files
-'''shell
+'''bash
+
 touch Makefile
+
 touch requirements.txt
+
 touch app.py
+
 touch test_app.py
 '''
